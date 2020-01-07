@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+  list-style: none;
+    font-size: 36px;
+  }
+
+.bg-light {
+    background-color: #04294e!important;
+    color: white;
+}
+
+.description {
+    text-align: center;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #04294e;
+}
+
+.fa-save {
+    font-size: 24px;
+}
