@@ -1,4 +1,15 @@
-// determine & display the current day
+// create, determine, & display the current day
+var m = moment();
+
+var currentDay = Date.now();
+
+m = moment(currentDay);
+
+function insertCurrentDay() {
+    $("#current span").text(m);
+};
+
+insertCurrentDay();
 
 
 

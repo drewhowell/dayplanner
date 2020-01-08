@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     justify-content: center;
-  list-style: none;
+    list-style: none;
     font-size: 36px;
   }
 
@@ -22,6 +22,7 @@ hr {
 
 .fa-save {
     font-size: 20px;
+    justify-content: center;
 }
 
 .footer {
@@ -30,4 +31,9 @@ hr {
     height: 60px;
     line-height: 60px;
     background-color: #f5f5f5;
+    text-align: center;
+}
+
+.time {
+    text-align: center;
 }
