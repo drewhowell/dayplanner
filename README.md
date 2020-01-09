@@ -14,7 +14,7 @@ This app uses the Moment.js library to work with date and time.
 
 ## Images
 
-![password generator](insertfilepath)
+![Day Planner](insertfilepath)
 
 ## Links
 
