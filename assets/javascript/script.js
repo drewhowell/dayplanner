@@ -1,15 +1,16 @@
 // create, determine, & display the current day
-var m = moment();
-
-var currentDay = Date.now();
-
-m = moment(currentDay);
+var currentDay = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
 
 function insertCurrentDay() {
-    $("#current span").text(m);
+    console.log("html", $("#current").html());
+    $("#current").text(currentDay);
 };
 
 insertCurrentDay();
+
+console.log(currentDay);
+
+console.log("hi");
 
 
 
