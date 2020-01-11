@@ -37,3 +37,8 @@ hr {
 .time {
     text-align: center;
 }
+
+input[type=text] {
+    border: none;
+    opacity: 0.0;
+  }
