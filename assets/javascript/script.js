@@ -18,23 +18,23 @@ console.log(currentTimeEl);
 
 
 function currentTime() {
-  if (currentTimeEl === "9") {
-    $("#nine").css("background-color","teal");
-   } else if (currentTimeEl === "10") {
+  if (currentTimeEl === nine.dataset.block) {
+    $("#nine").css("background-color","red");
+   } else if (currentTimeEl === ten.dataset.block) {
     $("#ten").css("background-color","red");
-   } else if (currentTimeEl === "11") {
+   } else if (currentTimeEl === eleven.dataset.block) {
     $("#eleven").css("background-color","red");
-   } else if (currentTimeEl === "12") {
+   } else if (currentTimeEl === twelve.dataset.block) {
     $("#twelve").css("background-color","red");
-   } else if (currentTimeEl === "1") {
+   } else if (currentTimeEl + 12 === one.dataset.block) {
     $("#one").css("background-color","red");
-   } else if (currentTimeEl === "2") {
+   } else if (currentTimeEl + 12 === two.dataset.block) {
     $("#two").css("background-color","red");
-   } else if (currentTimeEl === "3") {
+   } else if (currentTimeEl + 12 === three.dataset.block) {
     $("#three").css("background-color","red");
-   } else if (currentTimeEl === "4") {
+   } else if (currentTimeEl + 12 === four.dataset.block) {
     $("#four").css("background-color","red");
-   } else if (currentTimeEl === "5") {
+   } else if (currentTimeEl + 12 === five.dataset.block) {
     $("#five").css("background-color","red");
    }
 }
@@ -48,7 +48,6 @@ currentTime();
 
 
 // determine past time & highlight past timeblocks gray
-
 
 
 // determine future time & highlight past timeblocks green
