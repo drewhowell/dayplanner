@@ -22,7 +22,10 @@ hr {
 
 .fa-save {
     font-size: 20px;
-    justify-content: center;
+}
+
+.save {
+    text-align: center;
 }
 
 .footer {
@@ -38,7 +41,7 @@ hr {
     text-align: center;
 }
 
-input[type=text] {
+form {
     border: none;
-    opacity: 0.0;
-  }
+    opacity: 0.2;
+}

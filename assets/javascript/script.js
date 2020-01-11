@@ -15,7 +15,7 @@ console.log(currentDay);
 var currentTimeEl = moment().format("h");
 
 console.log(currentTimeEl);
-console.log(nine.dataset.block);
+console.log(three.dataset.block);
 
 
 // highlight current time red, past time gray, & future time green
@@ -103,6 +103,7 @@ function currentTimeTen() {
   }
   
   currentTimeThree();
+  console.log(currentTimeThree());
 
   function currentTimeFour() {
     if (currentTimeEl + 12 === four.dataset.block) {
