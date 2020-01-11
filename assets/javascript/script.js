@@ -10,23 +10,40 @@ insertCurrentDay();
 
 console.log(currentDay);
 
-console.log("hi");
-
-
 
 // determine current time & highlight timeblock red
-var time = [9,10,11,12,13,14,15,16,17]
 var currentTimeEl = moment().format("h");
 
-console.log(currentTime);
+console.log(currentTimeEl);
+
 
 function currentTime() {
-    if (currentTimeEl <= time) {
-        $(".block").css("background-color", "red");
-    }
+  if (currentTimeEl === "9") {
+    $("#nine").css("background-color","teal");
+   } else if (currentTimeEl === "10") {
+    $("#ten").css("background-color","red");
+   } else if (currentTimeEl === "11") {
+    $("#eleven").css("background-color","red");
+   } else if (currentTimeEl === "12") {
+    $("#twelve").css("background-color","red");
+   } else if (currentTimeEl === "1") {
+    $("#one").css("background-color","red");
+   } else if (currentTimeEl === "2") {
+    $("#two").css("background-color","red");
+   } else if (currentTimeEl === "3") {
+    $("#three").css("background-color","red");
+   } else if (currentTimeEl === "4") {
+    $("#four").css("background-color","red");
+   } else if (currentTimeEl === "5") {
+    $("#five").css("background-color","red");
+   }
 }
 
 currentTime();
+
+
+
+
 
 
 
