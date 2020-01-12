@@ -39,11 +39,11 @@ function currentTimeTen() {
      } else if (currentTimeEl > ten.dataset.block) {
       $("#ten").css("background-color","#B8BBB8");
       }
-  }
+}
   
-  currentTimeTen();
+currentTimeTen();
 
-  function currentTimeEleven() {
+function currentTimeEleven() {
     if (currentTimeEl === eleven.dataset.block) {
       $("#eleven").css("background-color","#F29DA5");
      } else if (currentTimeEl < eleven.dataset.block) {
@@ -51,11 +51,11 @@ function currentTimeTen() {
      } else if (currentTimeEl > eleven.dataset.block) {
       $("#eleven").css("background-color","#B8BBB8");
       }
-  }
+}
   
-  currentTimeEleven();
+currentTimeEleven();
 
-  function currentTimeTwelve() {
+function currentTimeTwelve() {
     if (currentTimeEl === twelve.dataset.block) {
       $("#twelve").css("background-color","#F29DA5");
      } else if (currentTimeEl < twelve.dataset.block) {
@@ -63,12 +63,12 @@ function currentTimeTen() {
      } else if (currentTimeEl > twelve.dataset.block) {
       $("#twelve").css("background-color","#B8BBB8");
       }
-  }
+}
   
-  currentTimeTwelve();
+currentTimeTwelve();
 
 
-  function currentTimeOne() {
+function currentTimeOne() {
     if (currentTimeEl + 12 === one.dataset.block) {
       $("#one").css("background-color","#F29DA5");
      } else if (currentTimeEl + 12 < one.dataset.block) {
@@ -76,11 +76,11 @@ function currentTimeTen() {
      } else if (currentTimeEl + 12 > one.dataset.block) {
       $("#one").css("background-color","#B8BBB8");
       }
-  }
+}
   
-  currentTimeOne();
+currentTimeOne();
 
-  function currentTimeTwo() {
+function currentTimeTwo() {
     if (currentTimeEl + 12 === two.dataset.block) {
       $("#two").css("background-color","#F29DA5");
      } else if (currentTimeEl + 12 < two.dataset.block) {
@@ -88,11 +88,11 @@ function currentTimeTen() {
      } else if (currentTimeEl + 12 > two.dataset.block) {
       $("#two").css("background-color","#B8BBB8");
       }
-  }
+}
   
-  currentTimeTwo();
+currentTimeTwo();
 
-  function currentTimeThree() {
+function currentTimeThree() {
     if (currentTimeEl + 12 === three.dataset.block) {
       $("#three").css("background-color","#F29DA5");
      } else if (currentTimeEl + 12 < three.dataset.block) {
@@ -100,12 +100,11 @@ function currentTimeTen() {
      } else if (currentTimeEl + 12 > three.dataset.block) {
       $("#three").css("background-color","#B8BBB8");
       }
-  }
+}
   
-  currentTimeThree();
-  console.log(currentTimeThree());
+currentTimeThree();
 
-  function currentTimeFour() {
+function currentTimeFour() {
     if (currentTimeEl + 12 === four.dataset.block) {
       $("#four").css("background-color","#F29DA5");
      } else if (currentTimeEl + 12 < four.dataset.block) {
@@ -113,11 +112,11 @@ function currentTimeTen() {
      } else if (currentTimeEl + 12 > four.dataset.block) {
       $("#four").css("background-color","#B8BBB8");
       }
-  }
+}
   
-  currentTimeFour();
+currentTimeFour();
 
-  function currentTimeFive() {
+function currentTimeFive() {
     if (currentTimeEl + 12 === five.dataset.block) {
       $("#five").css("background-color","#F29DA5");
      } else if (currentTimeEl + 12 < five.dataset.block) {
@@ -125,8 +124,15 @@ function currentTimeTen() {
      } else if (currentTimeEl + 12 > five.dataset.block) {
       $("#five").css("background-color","#B8BBB8");
       }
-  }
+}
   
-  currentTimeFive();
+currentTimeFive();
 
 // input text for timeblock and save
+
+function action() {
+    window.localStorage['ninetext'] = document.getElementById('ninetext').value;
+    document.getElementById('ninetext').value = window.localStorage['ninetext'];
+}
+
+console.log(action());
