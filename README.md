@@ -14,7 +14,7 @@ This app uses the Moment.js library to work with date and time.
 
 ## Images
 
-![Day Planner](assets/images/dayplanner.png)
+![Day Planner](images/dayplanner.png)
 
 ## Links
 
